@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
+
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -43,8 +45,9 @@ public class mole : MonoBehaviour
         if(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.JoystickButton9)) {
             //block.localScale = new Vector3(block.scale.x,0.25,block.scale.z);
             block.position = new Vector3(block.position.x, -2f, block.position.z);
-            str prevscore = 
-            scoretext.text = ''
+            int prevscore = Int32.Parse(scoretext.text.Split(' ')[1]);
+            scoretext.text = $"SCORE: {prevscore+1}";
+            // scoretext.text = '';
         } 
     }
 }

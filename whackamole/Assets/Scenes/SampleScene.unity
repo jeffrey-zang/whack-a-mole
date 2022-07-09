@@ -560,21 +560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 543450651623888188}
   thing: 11
-  score: 0
-  scoretext: {fileID: 0}
---- !u!65 &297495221
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132147884707718}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7, y: 1.7, z: 1.7}
-  m_Center: {x: 0, y: 2, z: 0}
+  scoretext: {fileID: 932273090}
 --- !u!1 &384809870
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,21 +793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 543450652078007627}
   thing: 0
-  score: 0
   scoretext: {fileID: 932273090}
---- !u!65 &472950559
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132147554467825}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7, y: 1.7, z: 1.7}
-  m_Center: {x: 0, y: 2, z: 0}
 --- !u!1 &477860974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,21 +1311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 543450652277562467}
   thing: 1
-  score: 0
-  scoretext: {fileID: 0}
---- !u!65 &900474187
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148337018585}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7, y: 1.7, z: 1.7}
-  m_Center: {x: 0, y: 2, z: 0}
+  scoretext: {fileID: 932273090}
 --- !u!1001 &929799910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1447,7 +1405,7 @@ GameObject:
   - component: {fileID: 932273091}
   - component: {fileID: 932273090}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: scoretext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1583,21 +1541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 543450653217494294}
   thing: 5
-  score: 0
-  scoretext: {fileID: 0}
---- !u!65 &940527799
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132149545422764}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7, y: 1.7, z: 1.7}
-  m_Center: {x: 0, y: 2, z: 0}
+  scoretext: {fileID: 932273090}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,21 +1657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 543450653546303669}
   thing: 10
-  score: 0
-  scoretext: {fileID: 0}
---- !u!65 &1096949061
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132149341522447}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7, y: 1.7, z: 1.7}
-  m_Center: {x: 0, y: 2, z: 0}
+  scoretext: {fileID: 932273090}
 --- !u!1 &1117174983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,21 +1828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 543450652576003429}
   thing: 5
-  score: 0
-  scoretext: {fileID: 0}
---- !u!65 &1337948408
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148031516639}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7, y: 1.7, z: 1.7}
-  m_Center: {x: 0, y: 2, z: 0}
+  scoretext: {fileID: 932273090}
 --- !u!1 &1379619368
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,21 +2422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 543450652042355102}
   thing: 3
-  score: 0
-  scoretext: {fileID: 0}
---- !u!65 &1909688630
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132147497843492}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7, y: 1.7, z: 1.7}
-  m_Center: {x: 0, y: 2, z: 0}
+  scoretext: {fileID: 932273090}
 --- !u!114 &2047550411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2535,21 +2437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 543450653510982331}
   thing: 2
-  score: 0
-  scoretext: {fileID: 0}
---- !u!65 &2047550412
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132149251670017}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7, y: 1.7, z: 1.7}
-  m_Center: {x: 0, y: 2, z: 0}
+  scoretext: {fileID: 932273090}
 --- !u!114 &2122887596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2564,21 +2452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 543450652322748301}
   thing: 4
-  score: 0
-  scoretext: {fileID: 0}
---- !u!65 &2122887597
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148384304439}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7, y: 1.7, z: 1.7}
-  m_Center: {x: 0, y: 2, z: 0}
+  scoretext: {fileID: 932273090}
 --- !u!1 &235789444463663515
 GameObject:
   m_ObjectHideFlags: 0
@@ -3328,8 +3202,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652042355102}
-  - component: {fileID: 1909688630}
   - component: {fileID: 1909688629}
+  - component: {fileID: 919132147497843493}
   m_Layer: 0
   m_Name: mole (10)
   m_TagString: Untagged
@@ -3337,6 +3211,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132147497843493
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147497843492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.07, y: 1.92, z: 1.68}
+  m_Center: {x: 0, y: 1.99, z: 0}
 --- !u!1 &919132147554467825
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,8 +3233,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652078007627}
-  - component: {fileID: 472950559}
   - component: {fileID: 472950558}
+  - component: {fileID: 919132147554467826}
   m_Layer: 0
   m_Name: mole (7)
   m_TagString: Untagged
@@ -3355,6 +3242,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132147554467826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147554467825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.07, y: 1.92, z: 1.68}
+  m_Center: {x: 0, y: 1.99, z: 0}
 --- !u!1 &919132147884707718
 GameObject:
   m_ObjectHideFlags: 0
@@ -3364,8 +3264,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450651623888188}
-  - component: {fileID: 297495221}
   - component: {fileID: 297495220}
+  - component: {fileID: 919132147884707719}
   m_Layer: 0
   m_Name: mole (14)
   m_TagString: Untagged
@@ -3373,6 +3273,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132147884707719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147884707718}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.07, y: 1.92, z: 1.68}
+  m_Center: {x: 0, y: 1.99, z: 0}
 --- !u!1 &919132148031516639
 GameObject:
   m_ObjectHideFlags: 0
@@ -3382,8 +3295,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652576003429}
-  - component: {fileID: 1337948408}
   - component: {fileID: 1337948407}
+  - component: {fileID: 919132148031516640}
   m_Layer: 0
   m_Name: mole (12)
   m_TagString: Untagged
@@ -3391,6 +3304,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132148031516640
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148031516639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.07, y: 1.92, z: 1.68}
+  m_Center: {x: 0, y: 1.99, z: 0}
 --- !u!1 &919132148058734206
 GameObject:
   m_ObjectHideFlags: 0
@@ -3432,8 +3358,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652277562467}
-  - component: {fileID: 900474187}
   - component: {fileID: 900474186}
+  - component: {fileID: 919132148337018586}
   m_Layer: 0
   m_Name: mole (8)
   m_TagString: Untagged
@@ -3441,6 +3367,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132148337018586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148337018585}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.07, y: 1.92, z: 1.68}
+  m_Center: {x: 0, y: 1.99, z: 0}
 --- !u!1 &919132148383952919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3466,8 +3405,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652322748301}
-  - component: {fileID: 2122887597}
   - component: {fileID: 2122887596}
+  - component: {fileID: 919132148384304440}
   m_Layer: 0
   m_Name: mole (11)
   m_TagString: Untagged
@@ -3475,6 +3414,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132148384304440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148384304439}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.07, y: 1.92, z: 1.68}
+  m_Center: {x: 0, y: 1.99, z: 0}
 --- !u!1 &919132148990576037
 GameObject:
   m_ObjectHideFlags: 0
@@ -3532,8 +3484,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450653510982331}
-  - component: {fileID: 2047550412}
   - component: {fileID: 2047550411}
+  - component: {fileID: 919132149251670018}
   m_Layer: 0
   m_Name: mole (9)
   m_TagString: Untagged
@@ -3541,6 +3493,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132149251670018
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149251670017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.07, y: 1.92, z: 1.68}
+  m_Center: {x: 0, y: 1.99, z: 0}
 --- !u!1 &919132149257835072
 GameObject:
   m_ObjectHideFlags: 0
@@ -3582,8 +3547,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450653546303669}
-  - component: {fileID: 1096949061}
   - component: {fileID: 1096949060}
+  - component: {fileID: 919132149341522448}
   m_Layer: 0
   m_Name: mole (13)
   m_TagString: Untagged
@@ -3591,6 +3556,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132149341522448
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149341522447}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.07, y: 1.92, z: 1.68}
+  m_Center: {x: 0, y: 1.99, z: 0}
 --- !u!1 &919132149545422764
 GameObject:
   m_ObjectHideFlags: 0
@@ -3600,8 +3578,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450653217494294}
-  - component: {fileID: 940527799}
   - component: {fileID: 940527796}
+  - component: {fileID: 919132149545422765}
   m_Layer: 0
   m_Name: mole (6)
   m_TagString: Untagged
@@ -3609,6 +3587,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132149545422765
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149545422764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.07, y: 1.92, z: 1.68}
+  m_Center: {x: 0, y: 1.99, z: 0}
 --- !u!1 &919132149564079916
 GameObject:
   m_ObjectHideFlags: 0
